@@ -39,7 +39,8 @@ type Dipendente = {
   annoNascita: number,
   sesso: "m" | "f",
   anniDiServizio: number[];
-
+  contratto: "determinato" | "freelance" | "indeterminato",
+  readonly email: "string"
 }
 
 
